@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Scott Messer — Senior Software Engineer</title>
+  <desc id="desc">Frontend architecture, design systems, and developer experience. A polar arcade identity with a penguin on an ice platform and an arctic night sky.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#07131b"/><stop offset="1" stop-color="#10343e"/></linearGradient>
+    <linearGradient id="ice" x1="870" y1="224" x2="870" y2="253" gradientUnits="userSpaceOnUse"><stop stop-color="#defff7"/><stop offset="1" stop-color="#3b9fa5"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#a9eee5" stroke-opacity=".035"/></pattern>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v300H0z"/>
+  <path fill="url(#grid)" d="M0 0h1200v300H0z"/>
+  <path d="M712-12C731 105 815 38 863 104C918 180 1005 44 1090 100C1133 129 1170 93 1200 44V0Z" fill="#62d77b" opacity=".06"/>
+  <path d="M795-3C815 54 851 29 890 83C927 134 983 93 1033 71" stroke="#a9eee5" stroke-opacity=".06" stroke-width="18"/>
+  <g fill="#a9eee5" opacity=".55"><circle cx="838" cy="52" r="1.5"/><circle cx="1134" cy="46" r="1"/><circle cx="757" cy="139" r="1"/><circle cx="1092" cy="165" r="1.5"/></g>
+  <path d="M1109 69A22 22 0 1 0 1121 99A20 20 0 0 1 1109 69Z" fill="#a9eee5" opacity=".45"/>
+  <path d="M681 279L778 203L824 231L895 168L965 243L1057 191L1200 279V300H681Z" fill="#24505b" opacity=".45"/>
+  <path d="M856 203L895 168L924 199L900 190L886 201L876 193Z" fill="#4b7b81" opacity=".5"/>
+  <path d="M714 275C813 253 853 281 944 268C1034 253 1118 284 1200 270V300H714Z" fill="#071923"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <path d="M56 38h7v7h-7z" fill="#62d77b"/>
+    <text x="77" y="45" fill="#a9eee5" font-size="12" letter-spacing="2">ENGINEER / BUILDER / OCCASIONAL PENGUIN RESCUER</text>
+    <text x="56" y="175" fill="#ffc857" font-size="17" letter-spacing="1">SENIOR SOFTWARE ENGINEER</text>
+    <text x="56" y="218" fill="#a9eee5" font-size="15">Frontend architecture / design systems</text>
+    <text x="56" y="245" fill="#82a8ac" font-size="15">Developer experience / Denver, CO</text>
+    <text x="56" y="281" fill="#537b83" font-size="10" letter-spacing="1.5">SCOTTMESSER.DEV</text>
+  </g>
+  <text x="51" y="131" fill="#e9fff7" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="76" letter-spacing="-3">Scott Messer.</text>
+  <g transform="translate(904 120) rotate(-10)">
+    <path d="M-72 112L-59 103H98L111 112L102 128L-59 132Z" fill="url(#ice)"/>
+    <path d="M-72 112L-54 119H92L111 112" fill="#defff7"/>
+    <path d="M-27 101C-43 104-49 112-39 114L-12 110L-9 100M18 99L17 109C31 115 48 111 47 106L30 99" fill="#ffc857" stroke="#07131b" stroke-width="3"/>
+    <path d="M-32 37C-44 45-58 63-59 75C-50 80-39 63-29 58M40 40C57 42 70 29 77 17C85 26 74 49 51 60" fill="#14333e" stroke="#57929b" stroke-width="2"/>
+    <path d="M-32 62C-33 27-26-4-3-11C21-19 44 4 45 35C48 66 45 89 31 99C15 110-19 107-28 93C-33 84-34 75-32 62Z" fill="#122f3a" stroke="#a9eee5" stroke-width="2.5"/>
+    <path d="M-20 58C-18 42-6 41 3 48C13 40 31 46 32 65C36 90 23 101 5 101C-15 103-26 84-20 58Z" fill="#e7fff4"/>
+    <path d="M-20 29C-23 13-14 1-7 4C3 8 3 22 0 33C-8 40-16 37-20 29ZM8 33C4 20 11 3 19 6C30 9 35 24 29 32C24 40 14 41 8 33Z" fill="#e7fff4"/>
+    <ellipse cx="-8" cy="22" rx="3" ry="5" fill="#07131b"/><ellipse cx="20" cy="22" rx="3" ry="5" fill="#07131b"/>
+    <path d="M-2 33L6 28L14 33L6 41Z" fill="#ffc857"/>
+    <path d="M-29 47C-11 55 24 56 43 46L42 56C22 65-12 64-30 57Z" fill="#62d77b"/>
+    <path d="M35 53L53 65L48 83L35 77L40 65L29 59Z" fill="#62d77b" stroke="#07131b" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(1040 160) rotate(-20)"><circle r="26" stroke="#ffc857" stroke-opacity=".1"/><path d="M-12 0C-6-10 6-10 14 0C6 10-6 10-12 0Z" fill="#ffc857"/><path d="M-12 0L-21-8V8Z" fill="#eaa743"/><circle cx="7" cy="-2" r="1.5" fill="#07131b"/></g>
+  <path d="M0 .5H1200M0 299.5H1200" stroke="#365f66" stroke-opacity=".5"/>
+</svg>

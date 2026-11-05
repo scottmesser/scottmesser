@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Save the Penguin — play Scott Messer's arcade remake</title>
+  <desc id="desc">A small penguin balances on a luminous ice platform above a midnight ocean, surrounded by descending sharks, golden fish, distant mountains, and an arctic aurora. Tilt the ice, dodge the sharks, and collect fish.</desc>
+  <style>@keyframes drift{to{transform:translateY(9px)}}.floating{animation:drift 3s ease-in-out infinite alternate;transform-box:fill-box}@media(prefers-reduced-motion:reduce){.floating{animation:none}}</style><defs>
+    <linearGradient id="sky" x1="600" y1="0" x2="600" y2="620" gradientUnits="userSpaceOnUse"><stop stop-color="#07131b"/><stop offset=".65" stop-color="#0d2933"/><stop offset="1" stop-color="#103943"/></linearGradient>
+    <linearGradient id="ice" x1="730" y1="440" x2="730" y2="500" gradientUnits="userSpaceOnUse"><stop stop-color="#d9fff6"/><stop offset=".3" stop-color="#a9eee5"/><stop offset="1" stop-color="#3caaa8"/></linearGradient>
+    <linearGradient id="aurora" x1="503" y1="-50" x2="1100" y2="330" gradientUnits="userSpaceOnUse"><stop stop-color="#62d77b" stop-opacity="0"/><stop offset=".47" stop-color="#62d77b" stop-opacity=".16"/><stop offset=".8" stop-color="#a9eee5" stop-opacity=".07"/><stop offset="1" stop-color="#a9eee5" stop-opacity="0"/></linearGradient>
+    <linearGradient id="body" x1="835" y1="290" x2="975" y2="455" gradientUnits="userSpaceOnUse"><stop stop-color="#183d48"/><stop offset="1" stop-color="#08171f"/></linearGradient>
+    <linearGradient id="water" x1="600" y1="480" x2="600" y2="620" gradientUnits="userSpaceOnUse"><stop stop-color="#0b2834"/><stop offset="1" stop-color="#07131b"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" stroke="#a9eee5" stroke-opacity=".035"/></pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="10"/></filter>
+    <g id="fish"><path d="M-15 0C-7-13 7-13 17 0C7 13-7 13-15 0Z" fill="#ffc857"/><path d="M-15 0L-27-11V11Z" fill="#eaa743"/><circle cx="8" cy="-2" r="2" fill="#07131b"/><path d="M-7-4L-1-7" stroke="#fff0c1" stroke-width="2" stroke-linecap="round"/></g>
+    <g id="shark"><path d="M0-39C17-31 23-10 20 12L36 28L15 25C11 38 4 47 0 50C-5 46-12 36-16 25L-36 29L-21 10C-23-13-17-31 0-39Z" fill="#4c8996" stroke="#86bfc3" stroke-width="2"/><path d="M0-26C9-14 12 11 0 34C-12 12-10-14 0-26Z" fill="#92c9cc"/><path d="M-10-7L-3-3M10-7L3-3" stroke="#07131b" stroke-width="3" stroke-linecap="round"/><path d="M-7 11L0 16L7 11" stroke="#07131b" stroke-width="3" stroke-linejoin="round"/><path d="M0 49L-14 62L0 57L14 62Z" fill="#4c8996"/></g>
+  </defs>
+
+  <path fill="url(#sky)" d="M0 0h1200v620H0z"/>
+  <path fill="url(#grid)" d="M0 0h1200v620H0z"/>
+  <path d="M488-20C540 169 653 24 757 158C849 277 975 52 1068 163C1132 242 1197 173 1247 98L1237-24Z" fill="url(#aurora)"/>
+  <path d="M590-30C614 113 722 40 788 133C863 237 993 90 1105 160" stroke="#62d77b" stroke-width="2" stroke-opacity=".12"/>
+  <path d="M713-20C733 63 819 82 864 139C900 184 949 160 998 139" stroke="#a9eee5" stroke-width="24" stroke-opacity=".035"/>
+
+  <g fill="#a9eee5" opacity=".65"><circle cx="646" cy="82" r="1.5"/><circle cx="718" cy="174" r="1"/><circle cx="850" cy="64" r="1.5"/><circle cx="953" cy="98" r="1"/><circle cx="1130" cy="55" r="1.5"/><circle cx="1115" cy="270" r="1"/><circle cx="592" cy="321" r="1.5"/><circle cx="674" cy="362" r="1"/><circle cx="119" cy="311" r="1"/><circle cx="537" cy="227" r="1"/></g>
+  <g stroke="#a9eee5" stroke-opacity=".5"><path d="M1080 89v10m-5-5h10M794 38v8m-4-4h8M627 235v8m-4-4h8"/></g>
+  <circle cx="1043" cy="132" r="46" fill="#a9eee5" opacity=".04"/>
+  <circle cx="1043" cy="132" r="32" fill="#a9eee5" opacity=".08"/>
+  <path d="M1056 108A27 27 0 1 0 1067 145A24 24 0 0 1 1056 108Z" fill="#c5f6ec" opacity=".7"/>
+
+  <g opacity=".7"><path d="M0 478L130 373L190 408L266 319L403 460L521 406L610 472L740 347L835 415L920 313L1060 454L1140 375L1200 430V620H0Z" fill="#163c45"/><path d="M190 408L266 319L326 383L275 361L252 379L231 369Z" fill="#3a666b"/><path d="M835 415L920 313L974 368L931 346L909 367L892 354Z" fill="#37656b"/><path d="M669 425L740 347L786 392L755 376L735 390L722 377Z" fill="#2a565e"/></g>
+  <path d="M0 478C123 465 213 504 332 490C485 472 535 516 681 485C812 458 904 504 1011 485C1088 470 1152 474 1200 484V620H0Z" fill="url(#water)"/>
+  <g stroke="#31626b" stroke-width="1.5" stroke-linecap="round" opacity=".55"><path d="M615 521h47m92 20h80m236-24h66M20 511h89m61 30h75m138-26h75M843 579h76m113-26h51m-483 32h50M60 584h48m190-24h66"/></g>
+  <g fill="#2b616c" opacity=".6"><path d="M595 555l30-8 27 13-42 4Z"/><path d="M1059 569l39-12 25 17-48 3Z"/><path d="M731 605l30-11 36 10-36 6Z"/></g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <path d="M56 36h7v7h-7z" fill="#62d77b"/>
+    <text x="75" y="43" fill="#a9eee5" font-size="12" letter-spacing="1.6">SCOTT MESSER / ENGINEERING PLAYGROUND</text>
+    <text x="1144" y="43" text-anchor="end" fill="#6b969c" font-size="11" letter-spacing="1.2">EST. 2015 → REBUILT</text>
+    <text x="56" y="113" fill="#ffc857" font-size="12" letter-spacing="2.5">SMALL PENGUIN. BIG PROBLEM.</text>
+  </g>
+  <g font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" letter-spacing="-4">
+    <text x="50" y="204" fill="#e9fff7" font-size="88">SAVE THE</text>
+    <text x="50" y="294" fill="#a9eee5" font-size="96">PENGUIN</text>
+  </g>
+  <path d="M56 321H118" stroke="#62d77b" stroke-width="3"/>
+  <text x="56" y="361" fill="#d5eee9" font-family="Arial, Helvetica, sans-serif" font-size="23">Tilt the ice. Dodge the sharks.</text>
+  <text x="56" y="392" fill="#82a8ac" font-family="Arial, Helvetica, sans-serif" font-size="17">Keep one small penguin out of very deep trouble.</text>
+
+  <g transform="translate(56 430)">
+    <path d="M0 0H270L284 14V62H0Z" fill="#ffc857"/>
+    <text x="23" y="38" fill="#07131b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700" letter-spacing="1">PLAY THE REMAKE</text>
+    <path d="M245 35V23h-12m12 0-17 17" stroke="#07131b" stroke-width="2.5"/>
+    <path d="M0 68H284" stroke="#ffc857" stroke-opacity=".25"/>
+  </g>
+  <text x="56" y="530" fill="#72999f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing=".5">A FRESH TAKE ON MY ORIGINAL SWIFT GAME.</text>
+  <text x="56" y="589" fill="#537b83" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6">BUILD THINGS. BREAK THE ICE.</text>
+
+  <g transform="translate(748 221) rotate(14) scale(.65)"><path d="M-10-93v25M8-82v18" stroke="#6da7af" stroke-opacity=".35" stroke-width="3"/><g class="floating"><use href="#shark"/></g></g>
+  <g transform="translate(1109 335) rotate(-19) scale(.82)"><path d="M-12-99v31M8-93v20" stroke="#6da7af" stroke-opacity=".25" stroke-width="3"/><g class="floating"><use href="#shark"/></g></g>
+  <g transform="translate(994 233) rotate(-17) scale(.83)"><circle r="33" stroke="#ffc857" stroke-opacity=".14"/><g class="floating"><use href="#fish"/></g></g>
+  <g transform="translate(704 395) rotate(17) scale(.63)"><circle r="33" stroke="#ffc857" stroke-opacity=".12"/><g class="floating"><use href="#fish"/></g></g>
+
+  <ellipse cx="891" cy="498" rx="151" ry="17" fill="#62d77b" opacity=".08" filter="url(#glow)"/>
+  <g transform="rotate(-8 875 463)">
+    <path d="M700 453L720 442H1041L1054 455L1038 482L728 487Z" fill="#62d77b" opacity=".15" filter="url(#glow)"/>
+    <path d="M704 453L727 442H1036L1051 453L1038 480L728 485Z" fill="url(#ice)"/>
+    <path d="M704 453L732 465H1029L1051 453" fill="#d9fff6"/>
+    <path d="M732 465L741 480M803 465L794 483M920 465L932 481M1002 465L992 482" stroke="#327e88" stroke-width="2" stroke-opacity=".6"/>
+    <path d="M729 449L815 449M841 449h84m35 0h62" stroke="#fff" stroke-width="2" stroke-opacity=".65"/>
+    <path d="M723 479L741 489L753 481M969 482L986 491L998 480" fill="#43999d"/>
+  </g>
+
+  <g transform="rotate(-8 890 411)">
+    <ellipse cx="886" cy="437" rx="58" ry="11" fill="#07131b" opacity=".3"/>
+    <path d="M855 419C839 422 828 431 830 437C834 443 860 443 872 435L877 420Z" fill="#ffc857" stroke="#07131b" stroke-width="4"/>
+    <path d="M902 420L902 434C919 442 944 441 946 435C944 427 929 421 917 418Z" fill="#ffc857" stroke="#07131b" stroke-width="4"/>
+    <path d="M844 333C825 342 806 366 800 389C809 398 828 384 843 363Z" fill="#102a35" stroke="#57929b" stroke-width="3"/>
+    <path d="M928 331C951 328 979 312 990 295C1000 304 988 333 966 350L939 362Z" fill="#14333e" stroke="#57929b" stroke-width="3"/>
+    <path d="M831 368C832 324 840 273 876 260C913 244 944 282 946 327C948 356 953 389 933 413C918 433 852 435 839 413C830 398 829 381 831 368Z" fill="url(#body)" stroke="#a9eee5" stroke-width="3"/>
+    <path d="M849 361C849 340 864 323 880 333C896 320 923 336 927 358C934 384 924 410 904 417C878 426 852 414 847 393C844 380 846 372 849 361Z" fill="#e7fff4"/>
+    <path d="M853 318C846 296 855 279 869 282C880 284 882 302 882 322C874 333 861 330 853 318Z" fill="#e7fff4"/>
+    <path d="M890 322C887 302 895 281 909 285C923 287 930 306 919 321C911 331 901 331 890 322Z" fill="#e7fff4"/>
+    <ellipse cx="870" cy="306" rx="4.5" ry="7" fill="#07131b"/><ellipse cx="906" cy="306" rx="4.5" ry="7" fill="#07131b"/>
+    <circle cx="871" cy="303" r="1.5" fill="#fff"/><circle cx="907" cy="303" r="1.5" fill="#fff"/>
+    <path d="M879 320L889 313L900 320L889 330Z" fill="#ffc857"/>
+    <path d="M841 343C862 352 916 352 942 340L940 354C914 365 860 365 839 355Z" fill="#62d77b"/>
+    <path d="M933 349L960 362L952 393L935 384L943 367L929 360Z" fill="#62d77b" stroke="#07131b" stroke-width="2"/>
+    <path d="M854 270C859 257 873 253 884 254L881 265" fill="#183d48" stroke="#a9eee5" stroke-width="3" stroke-linecap="round"/>
+    <path d="M861 376C861 371 863 367 866 364" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+  </g>
+  <g stroke="#62d77b" stroke-width="2" stroke-linecap="round"><path d="M796 286l-12-10m19 2-2-15M993 410l14-7m-9 15 17 2" opacity=".65"/></g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#648e95" letter-spacing="1"><text x="886" y="551" text-anchor="middle">ONE MORE TRY?</text><path d="M834 565h104" stroke="#31545e"/></g>
+  <path d="M0 .5H1200M0 619.5H1200" stroke="#365f66" stroke-opacity=".5"/>
+</svg>
