@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="210" viewBox="0 0 960 210" role="img" aria-labelledby="title desc"><title id="title">One component system, three brand themes</title><desc id="desc">Illustrative component study, not a product screenshot. Identical layout and controls in mint, blue, and plum show how semantic tokens apply different firm branding. Open the firm theming case study.</desc><style>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="210" viewBox="0 0 960 210" role="img" aria-labelledby="title desc"><title id="title">One component system, three brand themes</title><desc id="desc">Illustrative component study, not a product screenshot. Identical layout and controls in mint, blue, and plum show how semantic tokens apply different firm branding.</desc><style>
 :root{--ink:#1f2933;--muted:#526573;--accent:#267562;--line:#c7d7d7;--surface:#f4f8f7;--track:#dce5e5;--paper:#fff;--mint:#267562;--blue:#4268a9;--plum:#855a8f}
 @media(prefers-color-scheme:dark){:root{--ink:#edf3f3;--muted:#a4bac3;--accent:#a2dfca;--line:#425761;--surface:#253139;--track:#40525c;--paper:#202930;--mint:#a2dfca;--blue:#9dbfee;--plum:#c6acdc}}
 text{font-family:Arial,Helvetica,sans-serif;fill:var(--ink)}.muted{fill:var(--muted)}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 </style><text x="0" y="21" font-size="15" letter-spacing="1.2" class="mono muted">ONE SYSTEM / DISTINCT BRANDS</text>
-<text x="960" y="21" text-anchor="end" font-size="13" class="muted">Illustrative study ↗</text><g transform="translate(0 42)">
+<text x="960" y="21" text-anchor="end" font-size="13" class="muted">Illustrative study</text><g transform="translate(0 42)">
 <rect width="304" height="153" rx="7" fill="var(--surface)" stroke="var(--line)"/>
 <rect x="0" y="17" width="3" height="119" rx="1.5" fill="var(--mint)"/>
 <circle cx="25" cy="30" r="6" fill="var(--mint)"/>
