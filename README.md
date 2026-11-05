@@ -1,4 +1,4 @@
-<a href="https://www.scottmesser.dev"><img src="./profile-header.svg" width="100%" alt="Scott Messer — Senior Software Engineer. Frontend architecture, design systems and developer experience. Denver, Colorado." /></a>
+<a href="https://www.scottmesser.dev"><img src="./profile-header.svg?v=minimal-20261105" width="100%" alt="Scott Messer — Senior Software Engineer. Frontend architecture, design systems and developer experience. Denver, Colorado." /></a>
 
 [Portfolio](https://www.scottmesser.dev) · [Resume](https://www.scottmesser.dev/#resume) · [Email](mailto:scott@breadfactorystudios.com)
 
@@ -25,4 +25,4 @@ Base UI + Tailwind component architecture. Storybook-to-Figma integration is in 
 Previously: Nerdy Bunny · Bluewater Technologies · Ford Motor Company.  
 BS, Information Systems — Oakland University.
 
-<img src="./github-activity.svg" width="100%" alt="Active days, longest streak, and busiest day over the past year. Updated daily from public GitHub contribution counts." />
+<img src="./github-activity.svg?v=minimal-20261105" width="100%" alt="Active days, longest streak, and busiest day over the past year. Updated daily from public GitHub contribution counts." />
