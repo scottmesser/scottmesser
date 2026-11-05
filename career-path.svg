@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="244" viewBox="0 0 960 244" role="img" aria-labelledby="title desc"><title id="title">Career at a glance</title><desc id="desc">Ford, iOS developer, 2016. Bluewater, mobile developer, 2018. Nerdy Bunny, senior software engineer, 2019. Signal Advisors, senior software engineer, April 2020 to present. Bread Factory Studios, co-founder, January 2020 to present, a concurrent practice.</desc><style>
+:root{--ink:#1f2933;--muted:#526573;--accent:#267562;--line:#c7d7d7;--soft:#edf5f2;--track:#dde7e7}
+@media(prefers-color-scheme:dark){:root{--ink:#edf3f3;--muted:#a4bac3;--accent:#a2dfca;--line:#425761;--soft:#253c3d;--track:#3b5059}}
+text{font-family:Arial,Helvetica,sans-serif;fill:var(--ink)}.muted{fill:var(--muted)}.accent{fill:var(--accent)}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.line{stroke:var(--line)}.soft{fill:var(--soft)}
+@keyframes breathe{0%,100%{opacity:.2}50%{opacity:.65}}.present{animation:breathe 3.6s ease-in-out infinite}@media(prefers-reduced-motion:reduce){.present{animation:none}}
+</style>
+<text x="0" y="25" font-size="13" letter-spacing="2" class="mono muted">CAREER AT A GLANCE</text>
+<path d="M16 78H924" class="line" fill="none" stroke-width="2"/>
+<path d="M620 78H924" stroke="var(--accent)" fill="none" stroke-width="2.5"/>
+<path d="M620 78V190H924" class="line" fill="none" stroke-width="1.5" stroke-dasharray="4 5"/>
+<g fill="var(--accent)"><circle cx="16" cy="78" r="5"/><circle cx="213" cy="78" r="5"/><circle cx="410" cy="78" r="5"/><circle cx="620" cy="78" r="6"/><circle cx="924" cy="78" r="6"/></g>
+<circle cx="924" cy="78" r="14" fill="var(--accent)" class="present"/>
+<g class="mono muted" font-size="14"><text x="0" y="56">2016</text><text x="197" y="56">2018</text><text x="394" y="56">2019</text><text x="604" y="56">2020</text><text x="924" y="56" text-anchor="end">PRESENT</text></g>
+<g font-size="22" font-weight="600"><text x="0" y="118">Ford</text><text x="197" y="118">Bluewater</text><text x="394" y="118">Nerdy Bunny</text><text x="604" y="118">Signal Advisors</text></g>
+<g font-size="15" class="muted"><text x="0" y="145">Native iOS</text><text x="197" y="145">Mobile products</text><text x="394" y="145">Interactive software</text><text x="604" y="145">Frontend systems &amp; DevEx</text></g>
+<rect x="642" y="173" width="282" height="35" fill="var(--soft)" rx="5"/>
+<text x="657" y="196" font-size="17">Bread Factory Studios</text>
+<text x="657" y="230" font-size="13" class="muted">Co-founder · Jan 2020–present · concurrent</text></svg>
