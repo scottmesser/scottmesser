@@ -27,11 +27,6 @@ Employee #18. Built frontend foundations for a fintech platform supporting **$2B
 - **Firm-wide theming.** Designed and shipped brand extraction, editable color suggestions, semantic tokens, and a theme constructor that restyles the portal for every firm.
 - **Developer experience.** Reduced measured CI build time from 20 to 5 minutes through an NX-to-Turborepo migration and CI improvements; introduced Vercel previews.
 
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/scottmesser/scottmesser/19a180d1e820ffbbf19e5a642a33af91358ef5a5/firm-themes-mobile.svg" />
-  <img src="https://raw.githubusercontent.com/scottmesser/scottmesser/19a180d1e820ffbbf19e5a642a33af91358ef5a5/firm-themes.svg" width="100%" alt="Illustrative component study: one layout in three brand themes, applied through semantic tokens." />
-</picture>
-
 <details>
 <summary><strong>Explore the architecture & delivery decisions</strong></summary>
 
