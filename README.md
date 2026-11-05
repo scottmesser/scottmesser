@@ -1,39 +1,28 @@
-<a href="https://www.scottmesser.dev"><img src="./profile-header.svg" width="100%" alt="Scott Messer — Senior Software Engineer. Thoughtful systems. Playful spirit. Denver, Colorado." /></a>
+<a href="https://www.scottmesser.dev"><img src="./profile-header.svg" width="100%" alt="Scott Messer — Senior Software Engineer. Frontend architecture, design systems and developer experience. Denver, Colorado." /></a>
 
-<p align="center"><a href="https://www.scottmesser.dev">EXPLORE MY WORK</a> &nbsp; / &nbsp; <a href="https://www.scottmesser.dev/#resume">RESUME + PDFS</a> &nbsp; / &nbsp; <a href="mailto:scott@breadfactorystudios.com">SAY HELLO</a></p>
+[Portfolio](https://www.scottmesser.dev) · [Resume](https://www.scottmesser.dev/#resume) · [Email](mailto:scott@breadfactorystudios.com)
 
-I build the frontend foundations that help people do their best work—and occasionally, keep a penguin out of trouble.
+React and TypeScript engineer building customer-facing products and the shared frontend foundations behind them. **Signal Advisors** / **Co-Founder, Bread Factory Studios**.
 
-**Senior Software Engineer at Signal Advisors** · **Co-Founder, Bread Factory Studios**
+### Selected work
 
-### Thoughtful systems. Real impact.
+**[Monorepo modernization](https://www.scottmesser.dev/#monorepo-ci)**  
+NX → Turborepo across a 27-person engineering organization. Measured CI build time: **20 → 5 minutes, a 75% reduction**.
 
-| From the field | Inside the work |
-| :--- | :--- |
-| **75% faster measured CI builds** · 20 minutes → 5 | [NX → Turborepo migration across a 27-person engineering organization](https://www.scottmesser.dev/#monorepo-ci) |
-| **One platform. Every firm’s own identity.** | [Brand extraction, semantic tokens, shared components, and portal-wide theming](https://www.scottmesser.dev/#firm-theming) |
-| **A shared language for building UI** | [Base UI + Tailwind component foundation for agent-assisted development](https://www.scottmesser.dev/#agent-ready-ui) · work in progress |
+**[Firm-wide theming](https://www.scottmesser.dev/#firm-theming)**  
+Brand extraction, semantic tokens, and a shared component platform. Generally available custom branding for every firm.
 
-React · TypeScript · Design systems · Accessibility · Frontend architecture · Developer experience
+**[Agent-ready UI foundations](https://www.scottmesser.dev/#agent-ready-ui)**  
+Base UI + Tailwind component architecture. Storybook-to-Figma integration is in progress.
 
-### A little side quest
+### Resume & contact
 
-<a href="https://www.scottmesser.dev/play/index.html"><img src="./save-the-penguin.svg" width="100%" alt="Play Save the Penguin: a modern remake of my original 2015 Swift game, Tilt. Balance the ice, collect fish, dodge sharks." /></a>
+[Frontend & Design Systems / PDF](https://www.scottmesser.dev/files/Scott-Messer-Resume-Frontend-Design-Systems.pdf)  
+[Frontend Platform & Developer Experience / PDF](https://www.scottmesser.dev/files/Scott-Messer-Resume-Frontend-Platform-DevEx.pdf)
 
-**[Play Save the Penguin →](https://www.scottmesser.dev/play/index.html)** — My 2015 Swift/SpriteKit game, rebuilt for the browser with original arctic art, gravity-driven balancing, two difficulty modes, keyboard and touch controls, and local best scores. Click the scene to enter the arcade.
+[scott@breadfactorystudios.com](mailto:scott@breadfactorystudios.com) · [breadfactorystudios.com](https://breadfactorystudios.com)
 
-### Field notes
+Previously: Nerdy Bunny · Bluewater Technologies · Ford Motor Company.  
+BS, Information Systems — Oakland University.
 
-<a href="https://github.com/scottmesser?tab=overview"><img src="./github-activity.svg" width="100%" alt="Active days, longest streak, and busiest day, refreshed daily from Scott’s public GitHub contribution calendar." /></a>
-
-
-
-### The professional part
-
-[Frontend & Design Systems resume](https://www.scottmesser.dev/files/Scott-Messer-Resume-Frontend-Design-Systems.pdf) · [Frontend Platform & DevEx resume](https://www.scottmesser.dev/files/Scott-Messer-Resume-Frontend-Platform-DevEx.pdf)
-
-Previously: Nerdy Bunny · Bluewater Technologies · Ford Motor Company. BS, Information Systems — Oakland University.
-
-For curious humans and their agents: my [public resume MCP endpoint](https://www.scottmesser.dev/mcp) exposes resume content, case studies, and document links through `get_resume`.
-
-<p align="center"><sub>Built with care. And a small penguin.</sub></p>
+<img src="./github-activity.svg" width="100%" alt="Active days, longest streak, and busiest day over the past year. Updated daily from public GitHub contribution counts." />
