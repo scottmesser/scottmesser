@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="218" viewBox="0 0 960 218" role="img" aria-labelledby="title desc"><title id="title">Measured CI build time reduced by 75 percent</title><desc id="desc">At Signal Advisors, the NX-to-Turborepo migration and CI improvements reduced the measured build step from 20 minutes to 5 minutes across a 27-person engineering organization.</desc><style>
+:root{--ink:#1f2933;--muted:#526573;--accent:#267562;--line:#c7d7d7;--soft:#edf5f2;--track:#dde7e7}
+@media(prefers-color-scheme:dark){:root{--ink:#edf3f3;--muted:#a4bac3;--accent:#a2dfca;--line:#425761;--soft:#253c3d;--track:#3b5059}}
+text{font-family:Arial,Helvetica,sans-serif;fill:var(--ink)}.muted{fill:var(--muted)}.accent{fill:var(--accent)}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.line{stroke:var(--line)}.soft{fill:var(--soft)}
+@keyframes breathe{0%,100%{opacity:.2}50%{opacity:.65}}.present{animation:breathe 3.6s ease-in-out infinite}@media(prefers-reduced-motion:reduce){.present{animation:none}}
+</style>
+<rect width="960" height="218" rx="8" class="soft"/>
+<text x="28" y="36" font-size="13" letter-spacing="1.5" class="mono muted">SIGNAL ADVISORS / MONOREPO MODERNIZATION</text>
+<g font-size="17" class="muted"><text x="28" y="87">Before</text><text x="28" y="136">After</text></g>
+<rect x="109" y="65" width="472" height="28" rx="3" fill="var(--track)"/><rect x="109" y="114" width="118" height="28" rx="3" fill="var(--accent)"/>
+<text x="601" y="87" font-size="21">20 min</text><text x="247" y="136" font-size="21" font-weight="600">5 min</text>
+<path d="M710 62V153" class="line"/><text x="746" y="114" font-size="62" font-weight="600" letter-spacing="-3" class="accent">−75%</text>
+<text x="748" y="142" font-size="16" class="muted">measured build time</text>
+<path d="M28 170H932" class="line"/><text x="28" y="196" font-size="14" class="muted">NX → Turborepo + CI improvements</text><text x="932" y="196" text-anchor="end" font-size="14" class="muted">27-person engineering organization</text></svg>
