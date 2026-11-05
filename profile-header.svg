@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="170" viewBox="0 0 1120 170" role="img" aria-labelledby="title desc"><title id="title">Scott Messer</title><desc id="desc">Senior Software Engineer. Frontend architecture, design systems and developer experience. Denver, Colorado.</desc><rect width="1120" height="170" fill="#0b141c"/><path d="M32 32H64" stroke="#a2d9cc" stroke-width="3"/><g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><text x="32" y="86" fill="#e2eceb" font-size="36" letter-spacing="-1.5">Scott Messer</text><text x="32" y="120" fill="#a2d9cc" font-size="15">Senior Software Engineer</text><text x="1088" y="46" text-anchor="end" fill="#8da5af" font-size="11">DENVER, CO</text><text x="1088" y="121" text-anchor="end" fill="#8da5af" font-size="12">Frontend architecture / Design systems / DevEx</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="230" viewBox="0 0 960 230" role="img" aria-labelledby="title desc"><title id="title">Scott Messer — Senior Software Engineer</title><desc id="desc">Frontend architecture, design systems and developer experience. Denver, Colorado.</desc><style>
+:root{--ink:#1f2933;--muted:#526573;--accent:#267562;--line:#c7d7d7;--soft:#edf5f2;--track:#dde7e7}
+@media(prefers-color-scheme:dark){:root{--ink:#edf3f3;--muted:#a4bac3;--accent:#a2dfca;--line:#425761;--soft:#253c3d;--track:#3b5059}}
+text{font-family:Arial,Helvetica,sans-serif;fill:var(--ink)}.muted{fill:var(--muted)}.accent{fill:var(--accent)}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.line{stroke:var(--line)}.soft{fill:var(--soft)}
+@keyframes breathe{0%,100%{opacity:.2}50%{opacity:.65}}.present{animation:breathe 3.6s ease-in-out infinite}@media(prefers-reduced-motion:reduce){.present{animation:none}}
+</style>
+<path d="M2 15H48" stroke="var(--accent)" stroke-width="3"/>
+<text x="0" y="106" font-size="76" font-weight="600" letter-spacing="-3.5">Scott Messer<tspan class="accent">.</tspan></text>
+<text x="2" y="158" font-size="30" class="muted">Senior Software Engineer</text>
+<text x="2" y="211" font-size="19" class="mono muted">FRONTEND ARCHITECTURE / DESIGN SYSTEMS / DEVEX</text>
+<g transform="translate(760 32)" fill="none" stroke="var(--line)" stroke-width="1.5">
+<rect x="0" y="0" width="164" height="112" rx="9"/><path d="M0 25H164M45 25V112"/>
+<path d="M12 12H15M22 12H25M32 12H35" stroke-linecap="round"/><path d="M61 44H144M61 60H117M61 78H132M14 44H30M14 58H30M14 72H25"/>
+<path d="M25 132H184V20M45 152H204V40"/><path d="M61 95H95" stroke="var(--accent)" stroke-width="4" stroke-linecap="round"/>
+</g></svg>
