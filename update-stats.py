@@ -78,10 +78,10 @@ def render(days, total):
         longest = max(longest, streak)
     peak = max(count for _, count in days)
     updated = datetime.now(timezone.utc).date().isoformat()
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="220" viewBox="0 0 1120 220" role="img" aria-labelledby="title desc"><title id="title">Scott Messer: field notes</title><desc id="desc">{active} active days, {longest} day longest streak, {peak} contributions on busiest day. From the public contribution calendar. Updated {updated}.</desc><rect width="1120" height="220" rx="14" fill="#0b202b"/><path d="M0 220L100 170 180 197 270 155 360 195 450 160 560 200 650 150 780 195 900 155 1020 190 1120 155V220Z" fill="#173c48"/><g font-family="Arial, Helvetica, sans-serif"><text x="36" y="35" fill="#8ce3c9" font-family="monospace" font-size="11" letter-spacing="2">FIELD NOTES / THE LAST YEAR</text>']
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="175" viewBox="0 0 1120 175" role="img" aria-labelledby="title desc"><title id="title">Scott Messer: GitHub activity summary</title><desc id="desc">{active} active days, {longest} day longest streak, {peak} contributions on busiest day. From the public contribution calendar. Updated {updated}.</desc><rect width="1120" height="175" rx="0" fill="#0b141c"/><g font-family="Arial, Helvetica, sans-serif"><text x="36" y="35" fill="#8ce3c9" font-family="monospace" font-size="11" letter-spacing="2">GITHUB / THE LAST YEAR</text>']
     for x, value, label in [(36, active, 'ACTIVE DAYS'), (405, longest, 'DAY LONGEST STREAK'), (775, peak, 'CONTRIBUTIONS / BUSIEST DAY')]:
-        out.append(f'<text x="{x}" y="103" fill="#e7f5ed" font-size="48" font-weight="600" letter-spacing="-2">{value}</text><text x="{x}" y="132" fill="#91b4be" font-family="monospace" font-size="11" letter-spacing="1">{label}</text>')
-    out.append(f'<text x="36" y="198" fill="#9ec2c7" font-family="monospace" font-size="10">{days[0][0]} — {days[-1][0]} · public + anonymized private counts</text><text x="1084" y="198" text-anchor="end" fill="#9ec2c7" font-family="monospace" font-size="10">UPDATED {updated} UTC</text></g></svg>')
+        out.append(f'<text x="{x}" y="96" fill="#e7f5ed" font-size="38" font-weight="600" letter-spacing="-2">{value}</text><text x="{x}" y="121" fill="#91b4be" font-family="monospace" font-size="11" letter-spacing="1">{label}</text>')
+    out.append(f'<text x="36" y="155" fill="#9ec2c7" font-family="monospace" font-size="10">{days[0][0]} — {days[-1][0]} · public + anonymized private counts</text><text x="1084" y="155" text-anchor="end" fill="#9ec2c7" font-family="monospace" font-size="10">UPDATED {updated} UTC</text></g></svg>')
     return '\n'.join(out) + '\n'
 
 
