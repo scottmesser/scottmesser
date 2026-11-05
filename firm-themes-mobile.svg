@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="362" viewBox="0 0 480 362" role="img" aria-labelledby="title desc"><title id="title">One component system, three brand themes</title><desc id="desc">Illustrative component study, not a product screenshot. Identical layout and controls in mint, blue, and plum show how semantic tokens apply different firm branding. Open the firm theming case study.</desc><style>
+:root{--ink:#1f2933;--muted:#526573;--accent:#267562;--line:#c7d7d7;--surface:#f4f8f7;--track:#dce5e5;--paper:#fff;--mint:#267562;--blue:#4268a9;--plum:#855a8f}
+@media(prefers-color-scheme:dark){:root{--ink:#edf3f3;--muted:#a4bac3;--accent:#a2dfca;--line:#425761;--surface:#253139;--track:#40525c;--paper:#202930;--mint:#a2dfca;--blue:#9dbfee;--plum:#c6acdc}}
+text{font-family:Arial,Helvetica,sans-serif;fill:var(--ink)}.muted{fill:var(--muted)}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+</style><text x="0" y="21" font-size="15" letter-spacing=".8" class="mono muted">ONE SYSTEM / DISTINCT BRANDS</text><g transform="translate(1 41)">
+<rect width="478" height="87" rx="7" fill="var(--surface)" stroke="var(--line)"/>
+<rect x="0" y="15" width="3" height="57" rx="1.5" fill="var(--mint)"/>
+<circle cx="27" cy="28" r="6" fill="var(--mint)"/>
+<text x="43" y="34" font-size="20" font-weight="600">Overview</text>
+<text x="460" y="31" font-size="13" class="mono muted" text-anchor="end">01</text>
+<rect x="21" y="54" width="124" height="7" rx="3.5" fill="var(--track)"/>
+<rect x="21" y="69" width="83" height="5" rx="2.5" fill="var(--track)"/>
+<rect x="359" y="46" width="101" height="28" rx="4" fill="var(--mint)"/>
+<text x="410" y="65" text-anchor="middle" font-size="15" font-weight="600" style="fill:var(--paper)">Continue</text>
+</g><g transform="translate(1 141)">
+<rect width="478" height="87" rx="7" fill="var(--surface)" stroke="var(--line)"/>
+<rect x="0" y="15" width="3" height="57" rx="1.5" fill="var(--blue)"/>
+<circle cx="27" cy="28" r="6" fill="var(--blue)"/>
+<text x="43" y="34" font-size="20" font-weight="600">Overview</text>
+<text x="460" y="31" font-size="13" class="mono muted" text-anchor="end">02</text>
+<rect x="21" y="54" width="124" height="7" rx="3.5" fill="var(--track)"/>
+<rect x="21" y="69" width="83" height="5" rx="2.5" fill="var(--track)"/>
+<rect x="359" y="46" width="101" height="28" rx="4" fill="var(--blue)"/>
+<text x="410" y="65" text-anchor="middle" font-size="15" font-weight="600" style="fill:var(--paper)">Continue</text>
+</g><g transform="translate(1 241)">
+<rect width="478" height="87" rx="7" fill="var(--surface)" stroke="var(--line)"/>
+<rect x="0" y="15" width="3" height="57" rx="1.5" fill="var(--plum)"/>
+<circle cx="27" cy="28" r="6" fill="var(--plum)"/>
+<text x="43" y="34" font-size="20" font-weight="600">Overview</text>
+<text x="460" y="31" font-size="13" class="mono muted" text-anchor="end">03</text>
+<rect x="21" y="54" width="124" height="7" rx="3.5" fill="var(--track)"/>
+<rect x="21" y="69" width="83" height="5" rx="2.5" fill="var(--track)"/>
+<rect x="359" y="46" width="101" height="28" rx="4" fill="var(--plum)"/>
+<text x="410" y="65" text-anchor="middle" font-size="15" font-weight="600" style="fill:var(--paper)">Continue</text>
+</g><text x="480" y="353" text-anchor="end" font-size="14" class="muted">Illustrative study ↗</text></svg>
