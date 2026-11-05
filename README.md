@@ -1,4 +1,7 @@
-<img src="./profile-header.svg?v=resume-timeline-1" width="100%" alt="Scott Messer. Senior Software Engineer. Frontend architecture, design systems, and developer experience." />
+<picture>
+  <source media="(max-width: 600px)" srcset="./profile-header-mobile.svg?v=1" />
+  <img src="./profile-header.svg?v=resume-timeline-1" width="100%" alt="Scott Messer. Senior Software Engineer. Frontend architecture, design systems, and developer experience." />
+</picture>
 
 I build customer-facing products and the shared systems behind them: components, theming, build infrastructure, and developer workflows. My work spans native iOS, interactive software, and the frontend platform at Signal Advisors.
 
