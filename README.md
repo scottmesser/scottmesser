@@ -23,16 +23,9 @@ I build customer-facing products and the shared systems behind them: components,
 
 Employee #18. Built frontend foundations for a fintech platform supporting **$2B+ in AUM** and **$1B+ in annual annuity production**.
 
-<a href="https://www.scottmesser.dev/#monorepo-ci">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./build-impact-mobile.svg?v=1" />
-    <img src="./build-impact.svg?v=1" width="100%" alt="Read the monorepo case study: measured CI builds fell from 20 to 5 minutes, a 75% reduction, across a 27-person engineering organization." />
-  </picture>
-</a>
-
 - **Frontend platform.** Designed and maintained shared components, established UI standards, and supported engineers adopting and contributing to the system.
 - **Firm-wide theming.** Designed and shipped brand extraction, editable color suggestions, semantic tokens, and a theme constructor that restyles the portal for every firm.
-- **Developer experience.** Proposed and implemented the NX-to-Turborepo migration and CI improvements above; introduced Vercel previews for earlier review and testing.
+- **Developer experience.** Reduced measured CI build time from 20 to 5 minutes through an NX-to-Turborepo migration and CI improvements; introduced Vercel previews.
 
 <picture>
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/scottmesser/scottmesser/19a180d1e820ffbbf19e5a642a33af91358ef5a5/firm-themes-mobile.svg" />
@@ -44,7 +37,7 @@ Employee #18. Built frontend foundations for a fintech platform supporting **$2B
 
 <br />
 
-**[Monorepo modernization →](https://www.scottmesser.dev/#monorepo-ci)**  
+**Monorepo modernization**  
 The 75% reduction measures the CI build step. The migration covered a 27-person engineering organization; total deployment time and productivity gains were not measured.
 
 **[Firm branding infrastructure →](https://www.scottmesser.dev/#firm-theming)**  
