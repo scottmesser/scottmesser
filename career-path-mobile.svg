@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="400" viewBox="0 0 480 400" role="img" aria-labelledby="title desc"><title id="title">Career at a glance</title><desc id="desc">Ford in 2016, Bluewater in 2018, Nerdy Bunny in 2019, Signal Advisors from April 2020 to present, with Bread Factory Studios concurrently from January 2020.</desc><style>
+:root{--ink:#1f2933;--muted:#526573;--accent:#267562;--line:#c7d7d7;--soft:#edf5f2;--track:#dde7e7}
+@media(prefers-color-scheme:dark){:root{--ink:#edf3f3;--muted:#a4bac3;--accent:#a2dfca;--line:#425761;--soft:#253c3d;--track:#3b5059}}
+text{font-family:Arial,Helvetica,sans-serif;fill:var(--ink)}.muted{fill:var(--muted)}.accent{fill:var(--accent)}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.line{stroke:var(--line)}.soft{fill:var(--soft)}
+@keyframes breathe{0%,100%{opacity:.2}50%{opacity:.65}}.present{animation:breathe 3.6s ease-in-out infinite}@media(prefers-reduced-motion:reduce){.present{animation:none}}
+</style>
+<text x="0" y="24" font-size="14" letter-spacing="1.5" class="mono muted">CAREER AT A GLANCE</text>
+<path d="M84 63V275" class="line" fill="none" stroke-width="2"/><path d="M84 275V356H110" class="line" stroke-width="1.5" stroke-dasharray="4 5" fill="none"/>
+<g fill="var(--accent)"><circle cx="84" cy="65" r="5"/><circle cx="84" cy="135" r="5"/><circle cx="84" cy="205" r="5"/><circle cx="84" cy="275" r="6"/></g><circle cx="84" cy="275" r="13" fill="var(--accent)" class="present"/>
+<g font-size="17" class="mono muted"><text x="0" y="71">2016</text><text x="0" y="141">2018</text><text x="0" y="211">2019</text><text x="0" y="281">2020</text></g>
+<g font-size="25" font-weight="600"><text x="110" y="73">Ford</text><text x="110" y="143">Bluewater</text><text x="110" y="213">Nerdy Bunny</text><text x="110" y="283">Signal Advisors</text></g>
+<g font-size="17" class="muted"><text x="110" y="98">Native iOS</text><text x="110" y="168">Mobile products</text><text x="110" y="238">Interactive software</text><text x="110" y="308">Frontend systems &amp; DevEx · present</text></g>
+<rect x="110" y="335" width="354" height="61" rx="5" class="soft"/><text x="124" y="359" font-size="21">Bread Factory Studios</text><text x="124" y="383" font-size="14" class="muted">Jan 2020–present · concurrent practice</text></svg>
