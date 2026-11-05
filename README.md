@@ -18,8 +18,8 @@ I build customer-facing products and the shared systems behind them: components,
 
 ## Experience
 
-### Signal Advisors
-**Senior Software Engineer** &nbsp; · &nbsp; Apr 2020–present
+### <img src="./role-signal.svg?v=1" width="34" height="26" alt="" /> Signal Advisors
+**Apr 2020–present** &nbsp; · &nbsp; Senior Software Engineer
 
 Employee #18. Built frontend foundations for a fintech platform supporting **$2B+ in AUM** and **$1B+ in annual annuity production**.
 
@@ -33,6 +33,13 @@ Employee #18. Built frontend foundations for a fintech platform supporting **$2B
 - **Frontend platform.** Designed and maintained shared components, established UI standards, and supported engineers adopting and contributing to the system.
 - **Firm-wide theming.** Designed and shipped brand extraction, editable color suggestions, semantic tokens, and a theme constructor that restyles the portal for every firm.
 - **Developer experience.** Proposed and implemented the NX-to-Turborepo migration and CI improvements above; introduced Vercel previews for earlier review and testing.
+
+<a href="https://www.scottmesser.dev/#firm-theming">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./firm-themes-mobile.svg?v=1" />
+    <img src="./firm-themes.svg?v=1" width="100%" alt="Illustrative component study: one layout in three brand themes, applied through semantic tokens. Read the firm theming case study." />
+  </picture>
+</a>
 
 <details>
 <summary><strong>Explore the architecture & delivery decisions</strong></summary>
@@ -52,8 +59,8 @@ Led frontend GraphQL adoption and contributed to Backend-for-Frontend architectu
 
 <br />
 
-### Bread Factory Studios
-**Co-Founder & Software Consultant** &nbsp; · &nbsp; Jan 2020–present  
+### <img src="./role-bread-factory.svg?v=1" width="34" height="26" alt="" /> Bread Factory Studios
+**Jan 2020–present** &nbsp; · &nbsp; Co-Founder & Software Consultant  
 <sub>Concurrent consulting practice</sub>
 
 Lead architecture, implementation, and technical strategy for custom web, mobile, and administrative applications.
@@ -64,22 +71,22 @@ Built automotive lead-generation and analytics tools, including mobile applicati
 
 <br />
 
-### Nerdy Bunny
-**Senior Software Engineer** &nbsp; · &nbsp; Oct 2019–Mar 2020
+### <img src="./role-nerdy-bunny.svg?v=1" width="34" height="26" alt="" /> Nerdy Bunny
+**Oct 2019–Mar 2020** &nbsp; · &nbsp; Senior Software Engineer
 
 Built desktop experiences connecting content-management tools with customer-facing digital signage in retail environments.
 
 <br />
 
-### Bluewater Technologies
-**Mobile Developer** &nbsp; · &nbsp; May 2018–Oct 2019
+### <img src="./role-bluewater.svg?v=1" width="34" height="26" alt="" /> Bluewater Technologies
+**May 2018–Oct 2019** &nbsp; · &nbsp; Mobile Developer
 
 Maintained GM lead-generation apps and built mobile flows for event engagement and structured data capture at auto shows.
 
 <br />
 
-### Ford Motor Company
-**iOS Developer** &nbsp; · &nbsp; Aug 2016–May 2018
+### <img src="./role-ford.svg?v=1" width="34" height="26" alt="" /> Ford Motor Company
+**Aug 2016–May 2018** &nbsp; · &nbsp; iOS Developer
 
 Built enterprise iOS product surfaces for vehicle information and diagnostic workflows, with responsive UIKit components across device types.
 
@@ -89,13 +96,20 @@ Built enterprise iOS product surfaces for vehicle information and diagnostic wor
 
 ## Skills & current work
 
-| Focus | Tools & practice |
-| :--- | :--- |
-| **Product interfaces** | React · TypeScript · Next.js · accessibility · complex forms · data visualization |
-| **Design systems** | Storybook · Base UI · Tailwind CSS · semantic tokens · theming |
-| **Frontend platforms** | Turborepo · NX · CI/CD · Vercel previews · developer experience |
-| **APIs & mobile** | GraphQL · NestJS · Node.js · PostgreSQL · SwiftUI · UIKit · React Native |
-| **AI-assisted engineering** | Claude Code · ChatGPT · Gemini · skills · PR tooling |
+**Product interfaces**  
+React · TypeScript · Next.js · accessibility · forms · data visualization
+
+**Design systems**  
+Storybook · Base UI · Tailwind CSS · semantic tokens · theming
+
+**Frontend platforms**  
+Turborepo · NX · CI/CD · Vercel previews · developer experience
+
+**APIs & mobile**  
+GraphQL · NestJS · Node.js · PostgreSQL · SwiftUI · UIKit · React Native
+
+**AI-assisted engineering**  
+Claude Code · ChatGPT · Gemini · skills · PR tooling
 
 **In progress:** [a component foundation for agent-assisted development](https://www.scottmesser.dev/#agent-ready-ui), built around Base UI and Tailwind, with Storybook-to-Figma integration underway.
 
