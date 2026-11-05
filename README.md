@@ -35,8 +35,8 @@ Employee #18. Built frontend foundations for a fintech platform supporting **$2B
 - **Developer experience.** Proposed and implemented the NX-to-Turborepo migration and CI improvements above; introduced Vercel previews for earlier review and testing.
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./firm-themes-mobile.svg?v=static-2" />
-  <img src="./firm-themes.svg?v=static-2" width="100%" alt="Illustrative component study: one layout in three brand themes, applied through semantic tokens." />
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/scottmesser/scottmesser/19a180d1e820ffbbf19e5a642a33af91358ef5a5/firm-themes-mobile.svg" />
+  <img src="https://raw.githubusercontent.com/scottmesser/scottmesser/19a180d1e820ffbbf19e5a642a33af91358ef5a5/firm-themes.svg" width="100%" alt="Illustrative component study: one layout in three brand themes, applied through semantic tokens." />
 </picture>
 
 <details>
